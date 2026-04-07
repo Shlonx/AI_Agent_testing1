@@ -34,8 +34,8 @@ print(response.choices[0].message.content)
 
 # And now - let's ask for a question:
 
-question = "Please propose a hard, challenging question to assess someone's IQ. Respond only with the question."
-messages = [{"role": "user", "content": question}]
+prompt = "Please propose a hard, challenging question to assess someone's IQ. Respond only with the question."
+messages = [{"role": "user", "content": prompt}]
 
 # ask it - this uses GPT 4.1 mini, still cheap but more powerful than nano
 
